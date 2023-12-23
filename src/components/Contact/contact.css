@@ -1,37 +1,41 @@
 #contactPage {
-    min-height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 60rem;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("../../assets/back7.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contactPageTitle {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .clientDesc {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 
 .clientImgs {
-    margin: 1rem 0;
+    margin: 6rem 0;
     display: flex;
     flex-wrap: wrap;
 }
 
 .clientImg {
     object-fit: cover;
-    width: 23%;
+    width: 20px;
     min-width: 9rem;
     margin: auto;
-    padding: 0.25rem;
+    margin: 2.25rem;
+    border-radius: 100%;
 }
 
 #clients {
@@ -40,7 +44,7 @@
 
 .contactDesc {
     padding: 1rem;
-    font-size: medium;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -89,4 +93,13 @@
 
 .alink {
     margin: 0 1rem;
+}
+
+@media screen and (max-width:820px) {
+    .contactPageTitle {
+        font-size: 5vw;
+    }
+    .contactDesc {
+        font-size: 2.8vw;
+    }
 }

@@ -4,6 +4,12 @@ import FacebookIcon from '../../assets/fb.png';
 import InstagramIcon from '../../assets/ig.png';
 import YoutubeIcon from '../../assets/yt.png';
 import emailjs from '@emailjs/browser';
+import client1 from '../../assets/skurkeriet.jpeg';
+import client2 from '../../assets/tryckbar.png';
+import client3 from '../../assets/3cant.jpeg';
+import client4 from '../../assets/foset.avif';
+import client5 from '../../assets/liu.jpeg';
+import client6 from '../../assets/mtd.png';
 
 const Contact = () => {
     const form = useRef();
@@ -22,11 +28,13 @@ const Contact = () => {
     return (
         <section id="contactPage">
             <div id="clients">
-                <h1 className="contactPageTitle">Our Clients</h1>
-                <p className="clientDesc">We had the opportunity to work with a diverse group of companies.
-                <br />Some of the notable companies We have worked ith includes</p>
                 <div className="clientImgs">
-                    img
+                    <a href="https://www.facebook.com/Skurkeriet/?locale=sv_SE" ><img className="clientImg" src={client1} alt="client1" /></a>
+                    <a href="https://www.facebook.com/tryckbar?locale=sv_SE" ><img className="clientImg" src={client2} alt="client2" /></a>
+                    <a href="https://www.facebook.com/3Cant?locale=sv_SE" ><img className="clientImg" src={client3} alt="client3" /></a>
+                    <a href="https://www.facebook.com/fosetkommiten?locale=sv_SE" ><img className="clientImg" src={client4} alt="client4" /></a>
+                    <a href="https://liu.se/" ><img className="clientImg" src={client5} alt="client5" /></a>
+                    <a href="https://www.medieteknikdagen.se/" ><img className="clientImg" src={client6} alt="client6" /></a>
                 </div>
             </div>
             <div id="contact">

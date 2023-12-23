@@ -10,14 +10,17 @@ import './app.css';
 
 function App() {
   return (
+    
     <div>
       <video src={video1} autoPlay muted loop className="video-bg"/>
       <Navbar/>
+    <div className="container">
       <Intro/>
       <Skills/>
       <Works/>
       <Contact/>
       <Footer/>
+    </div>
     </div>
   );
 }
