@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import './contact.css';
 import FacebookIcon from '../../assets/fb.png';
 import InstagramIcon from '../../assets/ig.png';
 import YoutubeIcon from '../../assets/yt.png';
-import emailjs from '@emailjs/browser';
 import client1 from '../../assets/skurkeriet.jpeg';
 import client2 from '../../assets/tryckbar.png';
 import client3 from '../../assets/3cant.jpeg';
@@ -12,19 +11,6 @@ import client5 from '../../assets/liu.jpeg';
 import client6 from '../../assets/mtd.png';
 
 const Contact = () => {
-    const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_dqlv4rn', 'template_guhqwhe', form.current, 'vmIJdd50srSD5aC4b6MC8')
-          .then((result) => {
-              console.log(result.text);
-              e.target.reset();
-              alert('Email Sent !');
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
     return (
         <section id="contactPage">
             <div id="clients">
@@ -40,11 +26,13 @@ const Contact = () => {
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Us</h1>
                 <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
-                <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder="Your Name" name="your_name"></input>
-                    <input type="email" className="email" placeholder="Your Email" name="your_email"></input>
-                    <textarea className="msg" name="message" rows={5} placeholder="Your Message"></textarea>
-                    <button className="submitBtn" type="submit" value='Send'>Submit</button>
+                <form className="contactForm" action="https://formsubmit.co/37963975c18a537aa61345160a069f5b" method="POST">
+                    <input type="text" className="name" placeholder="Your Name" name="name" required></input>
+                    <input type="email" className="email" placeholder="Your Email" name="email" required></input>
+                    <textarea className="msg" name="message" rows={5} placeholder="Your Message" required></textarea>
+                    <input type="hidden" name="_captcha" value="false"></input>
+                    <input type="hidden" name="_template" value="table"></input>
+                    <button className="submitBtn">Submit</button>
                     <div className="links">
                         <a href="https://www.facebook.com/Wizzmiz1/" target="_blank" rel="noreferrer" className="alink"><img className="link" src={FacebookIcon} alt="Facebook Icon"></img></a>
                         <a href="https://www.instagram.com/aerocaptureproduction/" target="_blank" rel="noreferrer" className="alink"><img className="link" src={InstagramIcon} alt="Instagram Icon"></img></a>
