@@ -10,7 +10,7 @@ const Intro = () => {
         <section id='intro'>
             <div className='introContent'>
                 <div className='logoAC'><img src={logoAC} /></div>
-                <span className='hello'>Welcome!</span>
+                <span className='hello'>Welcome!</span><br />
                 <span className='introText'>We are <span className='altText'>AeroCapture</span> <img className='logoText' src={ logoText } alt='logoText' />Productions
                 <br /><i>Video Production company</i></span>
                 <p className='introPara'>We specialize in drone stock footage. Hire us to get great photos of your
