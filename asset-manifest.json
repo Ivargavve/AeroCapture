@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AeroCapture/static/css/main.62bdf288.css",
-    "main.js": "/AeroCapture/static/js/main.3bb7e793.js",
+    "main.css": "/AeroCapture/static/css/main.f21b69c5.css",
+    "main.js": "/AeroCapture/static/js/main.33581c66.js",
     "static/media/background.mp4": "/AeroCapture/static/media/background.d072850ef378e1f9b189.mp4",
     "static/media/1.png": "/AeroCapture/static/media/1.e5efdfcfeab95ea271bb.png",
     "static/media/3.png": "/AeroCapture/static/media/3.a35ef6acef91a0932f56.png",
@@ -11,15 +11,16 @@
     "static/media/tryckbar.png": "/AeroCapture/static/media/tryckbar.e109c8e7822270148eac.png",
     "static/media/LogoACround.png": "/AeroCapture/static/media/LogoACround.256590da61dc56b999aa.png",
     "static/media/LogoSmallAC.png": "/AeroCapture/static/media/LogoSmallAC.5baada2d3786fa34fa26.png",
+    "static/media/LogoAC.png": "/AeroCapture/static/media/LogoAC.ead0588517057d9e80c7.png",
     "static/media/foset.avif": "/AeroCapture/static/media/foset.4a1eac69a6a7207af6e3.avif",
     "static/media/mail.webp": "/AeroCapture/static/media/mail.2c1736e4ae6404f61094.webp",
     "static/media/textSmall.png": "/AeroCapture/static/media/textSmall.8c35dcca1f0fcdad2ed3.png",
     "index.html": "/AeroCapture/index.html",
-    "main.62bdf288.css.map": "/AeroCapture/static/css/main.62bdf288.css.map",
-    "main.3bb7e793.js.map": "/AeroCapture/static/js/main.3bb7e793.js.map"
+    "main.f21b69c5.css.map": "/AeroCapture/static/css/main.f21b69c5.css.map",
+    "main.33581c66.js.map": "/AeroCapture/static/js/main.33581c66.js.map"
   },
   "entrypoints": [
-    "static/css/main.62bdf288.css",
-    "static/js/main.3bb7e793.js"
+    "static/css/main.f21b69c5.css",
+    "static/js/main.33581c66.js"
   ]
 }
