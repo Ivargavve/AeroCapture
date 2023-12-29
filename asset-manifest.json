@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AeroCapture/static/css/main.f21b69c5.css",
-    "main.js": "/AeroCapture/static/js/main.33581c66.js",
+    "main.css": "/AeroCapture/static/css/main.56a43e78.css",
+    "main.js": "/AeroCapture/static/js/main.af440f43.js",
     "static/media/background.mp4": "/AeroCapture/static/media/background.d072850ef378e1f9b189.mp4",
     "static/media/1.png": "/AeroCapture/static/media/1.e5efdfcfeab95ea271bb.png",
     "static/media/3.png": "/AeroCapture/static/media/3.a35ef6acef91a0932f56.png",
@@ -16,11 +16,11 @@
     "static/media/mail.webp": "/AeroCapture/static/media/mail.2c1736e4ae6404f61094.webp",
     "static/media/textSmall.png": "/AeroCapture/static/media/textSmall.8c35dcca1f0fcdad2ed3.png",
     "index.html": "/AeroCapture/index.html",
-    "main.f21b69c5.css.map": "/AeroCapture/static/css/main.f21b69c5.css.map",
-    "main.33581c66.js.map": "/AeroCapture/static/js/main.33581c66.js.map"
+    "main.56a43e78.css.map": "/AeroCapture/static/css/main.56a43e78.css.map",
+    "main.af440f43.js.map": "/AeroCapture/static/js/main.af440f43.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21b69c5.css",
-    "static/js/main.33581c66.js"
+    "static/css/main.56a43e78.css",
+    "static/js/main.af440f43.js"
   ]
 }
