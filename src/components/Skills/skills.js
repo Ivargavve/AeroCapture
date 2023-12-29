@@ -32,7 +32,7 @@ const Skills = () => {
             <div className='bars'>
                 <img className='image' src={image1} alt="image1"/>
                 <p className='informationText'>
-                    AeroCapture Productions is not just a company; we are a team of visionaries who believe 
+                    <span className='hideText' >AeroCapture Productions is not just a company; we are a team of visionaries who believe 
                     in the transformative potential of drone videography. We take pride in staying at the 
                     forefront of technological advancements, ensuring that our clients benefit from the latest 
                     innovations in the industry. Our goal is to consistently deliver high-quality, captivating 
@@ -40,9 +40,14 @@ const Skills = () => {
                     As a newly founded company, we are excited about the journey ahead and the opportunities 
                     to collaborate with creative minds, businesses, and organizations that share our passion 
                     for visual excellence. Explore the world from a new perspective with AeroCapture Productions –
-                     where the sky is not the limit; it's just the beginning.</p>
-                    <div className='center'><a href='http://localhost:3000/' ><img className='acimage' src={acimage} alt='logo' /></a></div>
+                     where the sky is not the limit; it's just the beginning.</span></p>
+                    <div className='center'><a href='https://ivargavve.github.io/AeroCapture/' ><img className='acimage' src={acimage} alt='logo' /></a></div>
+                <div className='seeMoreBtn'>
+                <strong>See More </strong>
+                <span className='arrow'>&#709;</span>
             </div>
+            </div>
+           
         </section>
     );
 }
