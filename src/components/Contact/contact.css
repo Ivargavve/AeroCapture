@@ -25,14 +25,16 @@
 
 .clientImgs {
     margin: 6rem 0;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .clientImg {
     object-fit: cover;
-    width: 20px;
-    min-width: 9rem;
+    width: 20vw;
     margin: auto;
     margin: 2.25rem;
     border-radius: 100%;
@@ -40,6 +42,10 @@
 
 #clients {
     padding: 2rem;
+}
+
+#contact {
+    margin-top: 7rem;
 }
 
 .contactDesc {

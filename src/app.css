@@ -1,6 +1,10 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -8,6 +12,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .video-bg {
