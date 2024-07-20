@@ -29,6 +29,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    max-width: 50%;
 }
 
 .clientImg {
