@@ -1,16 +1,84 @@
 #skills {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     width: 100%;
     padding: 20px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: auto;
     padding-top: 4vh;
-    background-image: url("../../assets/back7.jpeg");
-    background-attachment: fixed;
+    background-image: url("../../assets/back5900.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.collage-container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    max-width: 75rem;
+    min-height: 35vw;
+}
+
+.collage-image {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, z-index 0.2s, top 0.2s, left 0.2s;
+}
+
+#img1 {
+    top: 10%;
+    left: 0%;
+    width: 40%; /* Adjust as needed */
+
+}
+
+#img2 {
+    top: 5%;
+    left: 30%;
+    width: 40%; /* Adjust as needed */
+
+}
+
+#img3 {
+    top: 10%;
+    left: 60%;
+    width: 40%; /* Adjust as needed */
+
+}
+
+#img4 {
+    top: 25%;
+    left: 15%;
+    width: 40%; /* Adjust as needed */
+
+}
+
+#img5 {
+    top: 35%;
+    left: 45%;
+    width: 40%; /* Adjust as needed */
+
+}
+
+#ivr {
+    width: 40%; /* Adjust as needed */
+
+}
+
+.collage-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    z-index: 10; /* Bring the hovered image to the front */
+    top: 30%; /* Adjust to move the image to the middle */
+    left: 30%; /* Adjust to move the image to the middle */
+}
+
+
 .seeMoreBtn {
     display: none;
     font-size: 1.4rem;
@@ -30,9 +98,58 @@
 }
 
 .bars {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    width: 100vw;
+    max-width: 75rem;
+    padding-bottom: 5rem;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 50%;
     max-width: 50%;
-    padding: 5px;
+    padding-right: 2rem;
+}
+
+.bar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    max-width: 50%;
+    padding-right: 2rem;
+}
+
+#row2 {
+    text-align: left;
+    width: 100%;
+}
+
+.lastP {
+    padding-bottom: 4rem;
+    font-size: large;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.info {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100vw;
+    max-width: 75rem;
+}
+
+p{
+    color: rgb(206, 206, 206);
 }
 
 .image {
@@ -44,6 +161,9 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    padding: 6vh;
+    width: 100vw;
+    max-width: 75rem;
 }
 
 .informationText {
@@ -75,6 +195,10 @@
 }
 
 @media screen and (max-width:820px) {
+    .bar.parallax {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+    
     .skillBarText>p {
         font-size: 2vw;
     }

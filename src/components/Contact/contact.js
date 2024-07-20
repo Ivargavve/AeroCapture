@@ -24,15 +24,15 @@ const Contact = () => {
                 </div>
             </div>
             <div id="contact">
-                <h1 className="contactPageTitle">Contact Us</h1>
-                <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
+                <h1 className="contactPageTitle">Ta kontakt med oss!</h1>
+                <span className="contactDesc">Fyll i formuläret nedan för att diskutera eventuella arbetsmöjligheter.</span>
                 <form className="contactForm" action="https://formsubmit.co/37963975c18a537aa61345160a069f5b" method="POST">
-                    <input type="text" className="name" placeholder="Your Name" name="name" required></input>
-                    <input type="email" className="email" placeholder="Your Email" name="email" required></input>
-                    <textarea className="msg" name="message" rows={5} placeholder="Your Message" required></textarea>
+                    <input type="text" className="name" placeholder="namn" name="name" required></input>
+                    <input type="email" className="email" placeholder="email" name="email" required></input>
+                    <textarea className="msg" name="message" rows={5} placeholder="meddelande" required></textarea>
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input type="hidden" name="_template" value="table"></input>
-                    <button className="submitBtn">Submit</button>
+                    <button className="submitBtn">Skicka</button>
                     <div className="links">
                         <a href="https://www.facebook.com/Wizzmiz1/" target="_blank" rel="noreferrer" className="alink"><img className="link" src={FacebookIcon} alt="Facebook Icon"></img></a>
                         <a href="https://www.instagram.com/aerocaptureproduction/" target="_blank" rel="noreferrer" className="alink"><img className="link" src={InstagramIcon} alt="Instagram Icon"></img></a>
