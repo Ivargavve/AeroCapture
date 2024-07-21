@@ -7,7 +7,7 @@ import client1 from '../../assets/skurkeriet.jpeg';
 import client2 from '../../assets/tryckbar.png';
 import client3 from '../../assets/3cant.jpeg';
 import client4 from '../../assets/foset.avif';
-import client5 from '../../assets/svartsöInvertedFilled.png';
+import client5 from '../../assets/svartsoInvertedFilled.png';
 import client6 from '../../assets/mtd.png';
 
 const Contact = () => {

@@ -16,7 +16,7 @@ Denna repository innehåller källkoden för Aerocapture Productions Ek. för. w
 
 ### Struktur
 
-- **/index.html** - Huvudsidan för webbplatsen.
+- **/index.html** - Huvudsidan för webbplatsen!
 - **/css/** - Innehåller alla CSS-stilar för webbplatsen.
   - **/styles.css** - Huvudstilfilen som styr webbplatsens utseende.
 - **/js/** - Innehåller JavaScript-filer som används för interaktivitet.
