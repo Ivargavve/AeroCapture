@@ -12,7 +12,7 @@ Vi tror på kraften i visuellt innehåll för att skapa intryck och bygga varum�
 
 ## Innehåll
 
-Denna repository innehåller källkoden för Aerocapture Productions webbplats. Här hittar du allt som behövs för att förstå, underhålla och utveckla webbplatsen.
+Denna repository innehåller källkoden för Aerocapture Productions Ek. för. webbplats. Här hittar du allt som behövs för att förstå, underhålla och utveckla webbplatsen.
 
 ### Struktur
 
