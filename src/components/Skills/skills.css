@@ -68,7 +68,6 @@
 
 #ivr {
     width: 40%; /* Adjust as needed */
-
 }
 
 .collage-image:hover {
@@ -212,6 +211,25 @@ p{
     .hideelement {
         display: none;
     }
+    .bars{
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        width: 170vw;
+        max-width: 100rem;
+        padding-bottom: 40px;
+    }
+    .bar2 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+    #row2{
+        text-align: center;
+    }
     .acimage {
         width: 80px;
     }
@@ -224,13 +242,6 @@ p{
     }
     .skillTitle {
         font-size: 2.5rem;
-    }
-    .bar {
-        text-align: center;
-    }
-    .bars {
-        max-width: 100%;
-        padding: 5px;
     }
     .image {
         display: none;

@@ -4,7 +4,7 @@ import image1 from '../../assets/mtdsida.png';
 import image2 from '../../assets/3cantsida.png';
 import image3 from '../../assets/rev1.png';
 import image4 from '../../assets/rev2.png';
-import image5 from '../../assets/svartsösida.png';
+import image5 from '../../assets/svartsosida.png';
 
 import ivr from '../../assets/ivr.png';
 
@@ -25,7 +25,7 @@ const Skills = () => {
                     <img src={image5} alt="Imaadkv" class="collage-image" id="img5"></img>
                 </div>
             <div className='bars'>
-                <div className='bar'>
+                <div className='bar hideelement'>
                     Vår vision
                     <p>
                     Vår vision är att förenkla och förbättra den digitala närvaron för företag och 
