@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AeroCapture/static/css/main.09c4876c.css",
-    "main.js": "/AeroCapture/static/js/main.dc37e47e.js",
+    "main.js": "/AeroCapture/static/js/main.c8280644.js",
     "static/media/background.mp4": "/AeroCapture/static/media/background.d072850ef378e1f9b189.mp4",
     "static/media/svartsosida.png": "/AeroCapture/static/media/svartsosida.0034f71c29d4e18e2bb7.png",
     "static/media/ivr.png": "/AeroCapture/static/media/ivr.550f6de529ca7717f46a.png",
@@ -37,10 +37,10 @@
     "static/media/back5.webp": "/AeroCapture/static/media/back5.20a4ab1fae77b85a8e03.webp",
     "index.html": "/AeroCapture/index.html",
     "main.09c4876c.css.map": "/AeroCapture/static/css/main.09c4876c.css.map",
-    "main.dc37e47e.js.map": "/AeroCapture/static/js/main.dc37e47e.js.map"
+    "main.c8280644.js.map": "/AeroCapture/static/js/main.c8280644.js.map"
   },
   "entrypoints": [
     "static/css/main.09c4876c.css",
-    "static/js/main.dc37e47e.js"
+    "static/js/main.c8280644.js"
   ]
 }
