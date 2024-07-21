@@ -12,10 +12,14 @@ const Skills = () => {
     return (
         <section id='skills'>
             <div className='skillTitle'>Välkommen till Aerocapture Productions!</div>
-            <p className='info'> Vi är en passionerad förening specialiserad på att erbjuda högkvalitativa tjänster inom fotografering,
-                 videoproduktion och hemsideskapande till företag och föreningar. Med en stark tro på kraften 
-                 i visuellt innehåll strävar vi efter att hjälpa våra kunder att presentera 
-                 sina varumärken på bästa möjliga sätt.
+            <p className='info'> Tack för att du väljer Aerocapture Productions! Vi är en förening som 
+                har skapats för att hjälpa mindre företag och föreningar att uppfylla sina önskningar 
+                om att synas digitalt och presenteras på ett professionellt sätt! Med våra tjänster 
+                inom webbdesign, video och drönarfotografi erbjuder vi allt som behövs för att ni ska 
+                kunna sticka ut och synas i den digitala världen! Vi har alltid levererat till nöjda 
+                kunder och hoppas kunna samarbeta med fler där ute som delar vår passion för webbplatser. 
+                Kontakta oss via formuläret för att diskutera arbetsmöjligheter.
+
             </p>
                  <div class="collage-container">
                     <img src={image1} alt="Imagur" class="collage-image" id="img1"></img>
@@ -28,28 +32,28 @@ const Skills = () => {
                 <div className='bar hideelement'>
                     Vår vision
                     <p>
-                    Vår vision är att förenkla och förbättra den digitala närvaron för företag och 
-                    föreningar genom professionella och skräddarsydda lösningar. Vi tror på att kombinera 
-                    kreativitet med teknisk expertis för att leverera resultat som inte bara uppfyller utan 
-                    överträffar våra kunders förväntningar.
+                    Vi jobbar för att våra kunder ska kunna presentera sitt företag på ett snyggt 
+                    och professionellt sätt till ett överkomligt pris. Vi inser vikten av att synas 
+                    och sticka ut i dagens digitala värld för att kunna växa och utvecklas. Vi tror på 
+                    att kombinera teknisk och kreativ expertis för att skapa resultat som inte bara uppfyller, 
+                    men överträffar våra kunders förväntningar. 
                     </p><br /><br />
                     Om mig själv
                     <p>
-                    Jag heter Ivar Gavelin och är grundare och ordförande för Aerocapture Productions. 
-                    Som student och entusiast inom fotografering och webbdesign startade jag denna förening 
-                    för att förvandla min passion till en möjlighet att hjälpa andra. Genom Aerocapture Productions 
-                    får jag chansen att dela min kreativitet och tekniska färdigheter för att stödja företag och 
-                    föreningar i deras digitala resor.
+                    Hej hej! Jag heter Ivar Gavelin och är grundare och ordförande för Aerocapture Productions. 
+                    Jag är en femte års civilingenjörsstudent inom Informations- & Medieteknik där jag har utvecklat 
+                    mina kunskaper inom bland annat webbdesign. Jag startade denna förening som ett sätt att förvandla 
+                    min passion för webbdesign och fotografi till en möjlighet att hjälpa andra och är väldigt glad över 
+                    att kunna applicera mina kunskaper i praktiken!
                     </p><br /><br />
                 </div>
                 <div class='bar2'>
                     <div id='row1'> <img src={ivr} alt="ivrr" id="ivr"></img>  </div>
                     <div id='row2'>
                         Vår mission
-                        <p> Vår mission är att erbjuda prisvärda, högkvalitativa tjänster som gör skillnad. 
-                            Vi vill hjälpa våra kunder att skapa imponerande visuella upplevelser och funktionella hemsidor 
-                            som sticker ut i mängden. Oavsett om det handlar om att fånga ögonblick genom vår kameralins eller 
-                            bygga en hemsida från grunden, är vårt mål att leverera enastående resultat varje gång.
+                        <p> Vi vill erbjuda prisvärda och högkvalitativa tjänster till våra kunder för att hjälpa 
+                            dem hitta sin väg till professionalitet i den digitala världen. Hemsidor som sticker ut, 
+                            fångar användarens intresse och får dem att se ut som coolast i stan är vad vi strävar efter!
                         </p>
                     </div>   
                  </div> 
