@@ -15,6 +15,7 @@ import asset12 from '../../assets/asset12.jpg';
 import asset13 from '../../assets/asset13.jpg';
 import asset14 from '../../assets/asset14.jpg';
 import asset15 from '../../assets/asset15.jpg';
+import asset16 from '../../assets/asset16.jpg';
 
 const Works = () => {
     return (
@@ -67,6 +68,9 @@ const Works = () => {
                             </div>
                             <div className='image'>
                                 <img src={asset15} alt='asset15' />
+                            </div>
+                            <div className='image'>
+                                <img src={asset16} alt='asset16' />
                             </div>
                         </div>
                     </div>
