@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/AeroCapture/static/css/main.09c4876c.css",
-    "main.js": "/AeroCapture/static/js/main.c8280644.js",
+    "main.css": "/AeroCapture/static/css/main.ea1ec3ef.css",
+    "main.js": "/AeroCapture/static/js/main.7c4b93bf.js",
     "static/media/background.mp4": "/AeroCapture/static/media/background.d072850ef378e1f9b189.mp4",
     "static/media/svartsosida.png": "/AeroCapture/static/media/svartsosida.0034f71c29d4e18e2bb7.png",
     "static/media/ivr.png": "/AeroCapture/static/media/ivr.550f6de529ca7717f46a.png",
-    "static/media/asset15.jpg": "/AeroCapture/static/media/asset15.d2a725289d93ee90a54b.jpg",
-    "static/media/asset7.jpg": "/AeroCapture/static/media/asset7.694a690e7d700f77639a.jpg",
+    "static/media/asset10.jpg": "/AeroCapture/static/media/asset10.c25708c9b0a91b2b0fb4.jpg",
+    "static/media/asset9.jpg": "/AeroCapture/static/media/asset9.405e23b33b337cc1ae1d.jpg",
+    "static/media/asset11.jpg": "/AeroCapture/static/media/asset11.ff421c6c37b00f7b4411.jpg",
+    "static/media/asset4.jpg": "/AeroCapture/static/media/asset4.26fb6d5faa29c1fc548a.jpg",
+    "static/media/asset12.jpg": "/AeroCapture/static/media/asset12.fbfbbf75e62fbb2218d2.jpg",
+    "static/media/asset5.jpg": "/AeroCapture/static/media/asset5.966332d182c7b40ac9d7.jpg",
     "static/media/asset1.jpg": "/AeroCapture/static/media/asset1.464c9660fbe5d2368703.jpg",
-    "static/media/asset12.jpg": "/AeroCapture/static/media/asset12.3b8a94dee840554a0ea8.jpg",
+    "static/media/asset8.jpg": "/AeroCapture/static/media/asset8.e4db0969ef8474696833.jpg",
+    "static/media/asset15.jpg": "/AeroCapture/static/media/asset15.3b8a94dee840554a0ea8.jpg",
+    "static/media/asset7.jpg": "/AeroCapture/static/media/asset7.c47c9da0ba40158f4b33.jpg",
+    "static/media/asset6.jpg": "/AeroCapture/static/media/asset6.35c61031e1a361454bb8.jpg",
     "static/media/mtdsida.png": "/AeroCapture/static/media/mtdsida.6ba500658051059f9325.png",
-    "static/media/asset4.jpg": "/AeroCapture/static/media/asset4.e9214828b60e0969c1d2.jpg",
-    "static/media/asset14.jpg": "/AeroCapture/static/media/asset14.de78344cc23129df1664.jpg",
+    "static/media/asset14.jpg": "/AeroCapture/static/media/asset14.91d7849931f396c35242.jpg",
+    "static/media/asset13.jpg": "/AeroCapture/static/media/asset13.7c1bee746439e1a5847c.jpg",
     "static/media/asset3.jpg": "/AeroCapture/static/media/asset3.b67278522de78e88e5be.jpg",
-    "static/media/asset13.jpg": "/AeroCapture/static/media/asset13.6c155600525500d0594d.jpg",
+    "static/media/asset16.jpg": "/AeroCapture/static/media/asset16.6c155600525500d0594d.jpg",
     "static/media/asset2.jpg": "/AeroCapture/static/media/asset2.85c1e12250830e2b2638.jpg",
-    "static/media/asset9.jpg": "/AeroCapture/static/media/asset9.9b917c8c8e43a5e70816.jpg",
-    "static/media/asset8.jpg": "/AeroCapture/static/media/asset8.3b6f2679bf7f9c746731.jpg",
-    "static/media/asset11.jpg": "/AeroCapture/static/media/asset11.fb253311d57dd1d3ab18.jpg",
-    "static/media/asset10.jpg": "/AeroCapture/static/media/asset10.76026a7e9510744d1dba.jpg",
     "static/media/3cantsida.png": "/AeroCapture/static/media/3cantsida.aa87beadf745fccd64b6.png",
-    "static/media/asset6.jpg": "/AeroCapture/static/media/asset6.fa1a4bb61416e0ee2407.jpg",
-    "static/media/asset5.jpg": "/AeroCapture/static/media/asset5.dab803dd1067b1fb93a9.jpg",
     "static/media/rev1.png": "/AeroCapture/static/media/rev1.52db034bbf72510150ec.png",
     "static/media/rev2.png": "/AeroCapture/static/media/rev2.945361b2cba86e30cb4b.png",
     "static/media/3cant.jpeg": "/AeroCapture/static/media/3cant.308506eab0a9ae33bff0.jpeg",
@@ -36,11 +37,11 @@
     "static/media/svartsoInvertedFilled.png": "/AeroCapture/static/media/svartsoInvertedFilled.23ad58a4dcbf894a96c8.png",
     "static/media/back5.webp": "/AeroCapture/static/media/back5.20a4ab1fae77b85a8e03.webp",
     "index.html": "/AeroCapture/index.html",
-    "main.09c4876c.css.map": "/AeroCapture/static/css/main.09c4876c.css.map",
-    "main.c8280644.js.map": "/AeroCapture/static/js/main.c8280644.js.map"
+    "main.ea1ec3ef.css.map": "/AeroCapture/static/css/main.ea1ec3ef.css.map",
+    "main.7c4b93bf.js.map": "/AeroCapture/static/js/main.7c4b93bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c4876c.css",
-    "static/js/main.c8280644.js"
+    "static/css/main.ea1ec3ef.css",
+    "static/js/main.7c4b93bf.js"
   ]
 }
