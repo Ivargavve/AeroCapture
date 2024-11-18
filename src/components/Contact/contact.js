@@ -15,12 +15,12 @@ const Contact = () => {
         <section id="contactPage">
             <div id="clients">
                 <div className="clientImgs">
-                    <a href="https://www.facebook.com/Skurkeriet/?locale=sv_SE" ><img className="clientImg" src={client1} alt="client1" /></a>
-                    <a href="https://www.facebook.com/tryckbar?locale=sv_SE" ><img className="clientImg" src={client2} alt="client2" /></a>
-                    <a href="https://www.facebook.com/3Cant?locale=sv_SE" ><img className="clientImg" src={client3} alt="client3" /></a>
-                    <a href="https://www.facebook.com/fosetkommiten?locale=sv_SE" ><img className="clientImg" src={client4} alt="client4" /></a>
-                    <a href="https://liu.se/" ><img className="clientImg" src={client5} alt="client5" /></a>
-                    <a href="https://www.medieteknikdagen.se/" ><img className="clientImg" src={client6} alt="client6" /></a>
+                    <a href="https://www.facebook.com/Skurkeriet/?locale=sv_SE" target="blank"><img className="clientImg" src={client1} alt="client1" /></a>
+                    <a href="https://www.facebook.com/tryckbar?locale=sv_SE" target="blank"><img className="clientImg" src={client2} alt="client2" /></a>
+                    <a href="https://www.facebook.com/3Cant?locale=sv_SE" target="blank"><img className="clientImg" src={client3} alt="client3" /></a>
+                    <a href="https://www.facebook.com/fosetkommiten?locale=sv_SE" target="blank"><img className="clientImg" src={client4} alt="client4" /></a>
+                    <a href="https://svartso.se/" target="blank"><img className="clientImg" src={client5} alt="client5" /></a>
+                    <a href="https://www.medieteknikdagen.se/" target="blank"><img className="clientImg" src={client6} alt="client6" /></a>
                 </div>
             </div>
             <div id="contact">

@@ -19,14 +19,13 @@ const Skills = () => {
                 kunna sticka ut och synas i den digitala världen! Vi har alltid levererat till nöjda 
                 kunder och hoppas kunna samarbeta med fler där ute som delar vår passion för webbplatser. 
                 Kontakta oss via formuläret för att diskutera arbetsmöjligheter.
-
             </p>
-                 <div class="collage-container">
-                    <img src={image1} alt="Imagur" class="collage-image" id="img1"></img>
-                    <img src={image2} alt="Ima" class="collage-image" id="img2"></img>
+                <div class="collage-container">
+                    <a href='https://www.medieteknikdagen.se/' target='blank'><img src={image1} alt="Imagur" class="collage-image" id="img1"></img></a>
+                    <a href='https://3cant.com/' target='blank'><img src={image2} alt="Ima" class="collage-image" id="img2"></img></a>
                     <img src={image3} alt="Imaasd" class="collage-image" id="img3"></img>
                     <img src={image4} alt="Imagefa" class="collage-image" id="img4"></img>
-                    <img src={image5} alt="Imaadkv" class="collage-image" id="img5"></img>
+                    <a href='https://svartso.se/' target='blank'><img src={image5} alt="Imaadkv" class="collage-image" id="img5"></img></a>
                 </div>
             <div className='bars'>
                 <div className='bar hideelement'>
