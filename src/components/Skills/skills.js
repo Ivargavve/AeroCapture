@@ -44,7 +44,16 @@ const Skills = () => {
                     mina kunskaper inom bland annat webbdesign. Jag startade denna förening som ett sätt att förvandla 
                     min passion för webbdesign och fotografi till en möjlighet att hjälpa andra och är väldigt glad över 
                     att kunna applicera mina kunskaper i praktiken!
-                    </p><br /><br />
+                    </p><br /> 
+                        <a 
+                            href="https://ivargavelin.com/" 
+                            target="_blank" 
+                            rel="noreferrer"
+                            style={{ fontSize: "1.25rem", color: "#00bfff", fontWeight: 500, textDecoration: "none" }}
+                            >
+                            Se mitt portfolio
+                            </a>
+                     <br />
                 </div>
                 <div class='bar2'>
                     <div id='row1'> <img src={ivr} alt="ivrr" id="ivr"></img>  </div>
